@@ -23,7 +23,7 @@ Measure, analyze, and understand the energy footprint of your code across CPU, G
 - NVIDIA GPU? Requires `pynvml` or NVML support  
 - (Optional) Administrative or privileged access may be needed depending on hardware and OS
 
-##Extensions & Ideas
+## Extensions & Ideas
 
 This project is built to be extended. Some potential additions:
 
