@@ -26,7 +26,6 @@ for i in range(10):
     print(mem_usage)
     print(gpu_usage)
 
-    # Creating the scatter plot
     plt.scatter(i, cpu_usage, color = "red")
     plt.scatter(i, mem_usage, color = "blue")
     plt.scatter(i, gpu_usage, color = "green")
