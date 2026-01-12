@@ -8,9 +8,7 @@ import matplotlib.pyplot as plt
 import subprocess
 import re
 
-# Creating nearly an infinite for loop to monitor the details continuously
 for i in range(10):
-    # CPU and RAM
     cpu_usage = psutil.cpu_percent()
     mem_usage = psutil.virtual_memory().percent
 
